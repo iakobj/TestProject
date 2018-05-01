@@ -20,10 +20,10 @@ def Answer1():
 def Answer2():
 
     if Questions.Answer == "1":
-        Story.Story2()
+        Story.Story7()
 
     elif Questions.Answer == "2":
-        Story.Story3()
+        Story.Story8()
 
     else:
         Questions.Decision(2)
