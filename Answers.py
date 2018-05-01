@@ -3,8 +3,6 @@ from termcolor import colored
 
 
 
-
-
 def Answer1():
 
     if Questions.Answer == "1":
