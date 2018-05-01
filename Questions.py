@@ -27,7 +27,7 @@ def Decision(if_Answer):
 
 
 
-################################ STORY ADVANCING QUESTIONS FOR PLAYERS TO ANSWER ####################################
+################################ STORY ADVANCING QUESTIONS FOR PLAYERS TO ANSWER ###################################
 
 
 
