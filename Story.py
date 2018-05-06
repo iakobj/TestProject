@@ -1,9 +1,9 @@
-import sys, os, Answers, Questions
+import sys, os, Answers, Questions, Optio
 from termcolor import colored
 
 def Initialize():
+    Optio.playerSetup()
     Questions.Question1()
-
 
 
 

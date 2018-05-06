@@ -12,12 +12,12 @@ def for_decision(A_list, IF_Answer):
 
 
 # Setting the default answer to 0
-Answer = "0"
+answer = "0"
 
 # Asking the player for decision relevant to story progress
 def Decision(if_Answer):
-    global Answer
-    Answer = input(colored("\n What are you going to do? ", "yellow"))
+    global answer
+    answer = input(colored("\n What are you going to do? ", "yellow"))
 
     # Calling the right if statement relevant to the question
     if if_Answer == 1:

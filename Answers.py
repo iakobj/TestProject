@@ -5,13 +5,13 @@ from termcolor import colored
 
 def Answer1():
 
-    if Questions.Answer == "1":
+    if Questions.answer == "1":
         Story.Story2()
 
-    elif Questions.Answer == "2":
+    elif Questions.answer == "2":
         Story.Story3()
 
-    elif Questions.Answer == "3":
+    elif Questions.answer == "3":
         Story.Story4()
 
     else:
@@ -19,10 +19,10 @@ def Answer1():
 
 def Answer2():
 
-    if Questions.Answer == "1":
+    if Questions.answer == "1":
         Story.Story7()
 
-    elif Questions.Answer == "2":
+    elif Questions.answer == "2":
         Story.Story8()
 
     else:
