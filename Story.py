@@ -1,11 +1,4 @@
-import sys, os, Answers, Questions
-from termcolor import colored
-
-def Initialize():
-    Questions.Question1()
-
-
-
+import Questions
 
 def Story2():
    Story = open("2Story.txt").read()
