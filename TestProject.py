@@ -2,16 +2,21 @@ import os
 import Questions
 import Optio
 
+
 # Prints game title in console
 def GameTitle():
-   Title = open("GameName.txt").read()
-   print (Title)
+    Title = open("GameName.txt").read()
+    print(Title)
 
-# Prints greetings text in console
+
+GameTitle()
+
+# Prints greetings text in console when called in initialize()
 def Greetings():
-   os.chdir("TestScript")
-   Greetings = open("1Story.txt").read()
-   print (Greetings)
+    os.chdir("TestScript")
+    Greetings = open("1Story.txt").read()
+    print(Greetings)
+
 
 # Starting the game
 def Initialize():
@@ -19,7 +24,7 @@ def Initialize():
     Greetings()
     Questions.Question1()
 
-GameTitle()
+
 
 Initialize()
 

@@ -1,6 +1,7 @@
 import Story
 import Questions
 
+
 def Answer1():
     if Questions.answer == "1":
         Story.Story2()
@@ -11,6 +12,7 @@ def Answer1():
     else:
         Questions.Decision(1)
 
+
 def Answer2():
     if Questions.answer == "1":
         Story.Story7()
@@ -18,6 +20,7 @@ def Answer2():
         Story.Story8()
     else:
         Questions.Decision(2)
+
 
 def Answer3():
     print("A3 Banana")

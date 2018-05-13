@@ -1,6 +1,7 @@
 from termcolor import colored
 import Answers
 
+
 # Prints questions about story progress for players to answer
 def for_decision(A_list, IF_Answer):
     decision = 1
@@ -11,6 +12,7 @@ def for_decision(A_list, IF_Answer):
 
 # Setting the default answer to 0
 answer = "0"
+
 
 # Asking the player for decision relevant to story progress
 def Decision(if_Answer):
@@ -25,13 +27,16 @@ def Decision(if_Answer):
     elif if_Answer == 3: #TEST
         Answers.Answer3()
 
+
 ################################ > STORY ADVANCING QUESTIONS FOR PLAYERS TO ANSWER < ###################################
+
 
 def Question1():
     question1 = ["You join your drinking buddies",
                  "You join pretty ladies",
                  "You just dance"]
     for_decision(question1, 1)
+
 
 def Question2():
     question2 = ["You run back to your station to go check out if the moving is still there",
