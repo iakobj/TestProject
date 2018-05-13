@@ -40,6 +40,7 @@ def playerSetup():
     luck = input("\n Type in your Luck: ")
     optio.luck = luck
 
+
     Player.printPlayerInfo(optio) #calling for test purposes
 
 
