@@ -1,5 +1,6 @@
 from termcolor import colored
 import Answers
+import Optio
 
 
 # Prints questions about story progress for players to answer
@@ -32,16 +33,23 @@ def Decision(if_Answer):
 
 
 def Question1():
-    question1 = ["You join your drinking buddies",
-                 "You join pretty ladies",
-                 "You just dance"]
+    question1 = ["Decisions decisions",
+                 "You do X",
+                 "You just do it"]
     for_decision(question1, 1)
 
 
 def Question2():
-    question2 = ["You run back to your station to go check out if the moving is still there",
-                 "You go to sleep"]
+    question2 = ["You decide on that",
+                 "You decide on this "]
     for_decision(question2, 2)
+
+def Question3():
+    question3 = ["Decision 1",
+                 "Decision 2"]
+    for_decision(question3, 3)
+
+
 
 
 

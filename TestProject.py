@@ -4,15 +4,16 @@ import Optio
 
 
 # Prints game title in console
-def GameTitle():
+def game_title():
     Title = open("GameName.txt").read()
     print(Title)
 
 
-GameTitle()
+game_title()
+
 
 # Prints greetings text in console when called in initialize()
-def Greetings():
+def greetings():
     os.chdir("TestScript")
     Greetings = open("1Story.txt").read()
     print(Greetings)
@@ -21,7 +22,8 @@ def Greetings():
 # Starting the game
 def Initialize():
     Optio.playerSetup()
-    Greetings()
+    Optio.pointsSetup()
+    greetings()
     Questions.Question1()
 
 

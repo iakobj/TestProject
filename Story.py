@@ -1,8 +1,11 @@
 import Questions
+import Fight
 
 def Story2():
-   Story = open("2Story.txt").read()
-   print (Story)
+    Story = open("2Story.txt").read()
+    print(Story)
+    Story = "Story2"
+    Fight.fighting(Story)
 
 def Story3():
     Story = open("3Story.txt").read()
